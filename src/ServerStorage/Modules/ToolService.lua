@@ -26,7 +26,9 @@ local Players = game:GetService("Players")
 
 local ToolStorage = ServerStorage:FindFirstChild("Tools")
 
-local ToolSystem = {}
+local ToolSystem = {
+	PREFIX = PREFIX
+}
 
 
 function ToolSystem:Run()
